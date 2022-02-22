@@ -1,0 +1,321 @@
+.headertop{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    background: #272727;
+    padding: 0px;
+}
+ 
+.foodism{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 30px;
+
+}
+
+.decor{
+    font-family: 'Pacifico', cursive;
+  
+    font-size: 25px;
+    color: #b51515;
+    border-bottom: 3px dotted #bbb;
+      padding-bottom: 30px;
+}
+
+
+ .myslides{display: none;}
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+u{
+	text-decoration:none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+  text-decoration: none;
+  font-size: 22px;
+    }
+
+li a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 20px;
+}
+    .float-img{
+    margin-right: 10px; 
+    margin-left: 40px;
+    margin-bottom: 5px; 
+    border: solid black 3px; 
+    padding: 4px; 
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.myslides{
+    margin:0;
+    padding: 8px;
+    display: contents;
+    border: solid black 2px;
+    background-repeat:no-repeat;
+    background-size: 100% 35%;
+    background-origin: content-box;
+    background-attachment: scroll;
+}
+
+
+
+        
+body{
+    background-color: #eee;
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+}
+            
+.webpage{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.web{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.center {
+    display: block;
+    margin-left:10px   ;
+    margin-right: 0px;
+       
+}
+
+h2{
+    color: #b51515;
+}
+            
+h3{
+    color: red;
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+.wrapper{
+    display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	 grid-column-gap:6em;
+    grid-row-gap:6em;
+}
+
+.wrapper > div{
+	background: #272727;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+     justify-content: center;
+    display:flex;
+  align-items: center;
+}
+
+
+.imgsp{
+
+
+float: left; 
+display: inline-block;
+vertical-align: middle;
+width: 300px;
+    
+}
+            
+img{
+    float: left;
+    margin-right: 05px;
+	margin-left:10px;
+    margin-bottom: 5px;
+   border:none;
+    padding: 2px;
+}
+  
+  
+
+  
+  
+
+
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    padding-left: 3px;
+    font-size: 18px;
+     color: green;
+}
+
+.footer{
+     background: #272727;
+    width:100%; 
+    margin-bottom:0px;
+    margin-top:1100px;  
+    height:100px; 
+    font-family:Arial;
+    text-decoration: none;
+}
+
+.bottom{
+    text-align:center;
+    padding:5px;
+    background: #b51515;
+     color: ivory;
+}
+
+.links > a {
+
+    color: ivory;
+}
+
+.links{
+    padding-top: 12px;
+}
+
+.card {
+    font-size: 20px;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:50%;
+  margin:auto;
+  border: 1px solid #b51515;
+}
+
+.sform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:50%;
+  margin:auto;
+  border: 1px solid #b51515;
+}
+
+.pay {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pay:hover {
+  background-color: #45a049;
+}
+
+
+
+
+.container {
+  position: relative;
+}
+
+.image {
+     
+display: inline-block;
+vertical-align: middle;
+width: 225px;
+margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 226px;
+  width: 226px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b51515;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+    
+    
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+    .nav a {
+        padding:85px;
+        color: ivory;
+    }
+    
+    .nav a:hover{
+        color: #b51515;
+    }
